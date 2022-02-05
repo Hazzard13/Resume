@@ -16,7 +16,7 @@
         <script src="//unpkg.com/alpinejs" defer></script>
     </head>
 </html>
-<body class="relative bg-slate-300 pb-10">
+<body class="relative h-auto min-h-screen bg-slate-300 pb-10">
     <div class="relative p-5 bg-gradient-to-br from-orange-500 to-amber-400">
         <a class="block float-left" href="{{ route('homepage') }}">
             <div class="h-16 w-16 sm:h-20 sm:w-20 bg-contain bg-[center_left_0.2rem] border-4 border-slate-200 rounded-full"
@@ -27,7 +27,7 @@
             <a class="block pr-6 float-right text-center">
                 Timeline
             </a>
-            <a class="block pr-6 float-right text-center">
+            <a href="{{ route('technologies') }}" class="block pr-6 float-right text-center">
                 Technologies
             </a>
             <a class="block pr-6 float-right text-center">
@@ -47,9 +47,9 @@
             <a class="float-left px-2" href="https://stackoverflow.com/users/4863406/nathan-hazzard">
                 <svg aria-hidden="true" focusable="false" class="mt-1 h-8 w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"></path></svg>
             </a>
-            <p class="float-left px-2 leading-10">
+            <a href="{{ route('homepage') }}" class="float-left px-2 leading-10">
                 Nathan Hazzard
-            </p>
+            </a>
         </div>
     </div>
 </body>
