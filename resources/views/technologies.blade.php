@@ -25,6 +25,7 @@
             <a class="pr-4 mb-3 text-blue-700 cursor-pointer hover:text-blue-800" x-on:click="scrollToRef($refs.backend)">Backend</a>
             <a class="pr-4 mb-3 text-blue-700 cursor-pointer hover:text-blue-800" x-on:click="scrollToRef($refs.testing)">Testing</a>
             <a class="pr-4 mb-3 text-blue-700 cursor-pointer hover:text-blue-800" x-on:click="scrollToRef($refs.language)">Languages</a>
+            <a class="pr-4 mb-3 text-blue-700 cursor-pointer hover:text-blue-800" x-on:click="scrollToRef($refs.other)">Other Skills</a>
         </div>
 
         <div class="p-5 mt-5 shadow-xl bg-slate-200 sm:rounded-lg" x-ref="frontEnd">
@@ -171,6 +172,33 @@
             </p>
             <p class="mb-3">
                 <span class="font-semibold">Python:</span> Like most developers, I'm quite fond of Python. It's highly readable, and straightforward to write, even if I do keep adding semicolons. I've been using this one professionally for more than five years now.
+            </p>
+        </div>
+
+        <div class="p-5 mt-5 shadow-xl bg-slate-200 sm:rounded-lg" x-ref="other">
+            <h1 class="pb-2 text-2xl font-semibold">
+                Other Skills
+            </h1>
+            <p class="mb-3">
+                I dabble with a lot more than just programming. This section features some of my more hobbyist skills.
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">ATEM:</span> Since the pandemic, our church has gone online. To help with that, we picked up an ATEM, and mastering it has mostly been my task. Setting it up, creating macros, and getting the best output we can has been a fun challenge!
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">Behringer X32:</span> About 3 years ago now, I started taking over much of the tech at my church. Learning the Behringer X32 Compact we have there was exciting, and I've improved leaps and bounds at mixing a soundboard in that time, using more and more of the tools provided by a digital board. I'm very comfortable with this board, and sound mixing in general, even though I have no formal training.
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">Blender:</span> This one is a new tool to my kit, but after a pretty intense weekend, I've also gone ahead and made my first blender donut, complete with animations, custom materials, and a seamless loop. Definitely interested in using this more!
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">Davinci Resolve:</span> I've been interested in video for about 3 years now, and pretty quickly hit limitations with iMovie. Not being interested in working around bad tools, I jumped all the way to Davinci Resolve, and it's been insanely powerful ever since. Just having the ability has nudged me into tinkering with color grading, audio mixing, and lately I've even been dabbling with VFX. I'm really comfortable in it, and have published lots of small projects using it.
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">OBS / SLOBS:</span> I started tinkering with livestreaming in 2019. It was quite the challenge, trying to create all of the branding, layouts, and everything else completely solo. Not to mention actually appearing on stream and trying to be entertaining live. Still, I managed to have some success, accruing more than 100 followers and reaching Twitch Affiliate.
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">Photoshop:</span> I'm no expert, but I know enough to get by. I've had a license from work for viewing designs for more than 5 years, and have lightly used it on multiple personal projects over the years.
             </p>
         </div>
     </div>
