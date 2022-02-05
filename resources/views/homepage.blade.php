@@ -13,7 +13,7 @@
         </p>
         <p class="mb-3">
             Also, anything you <span class="italic">can't</span> see directly here, such as how the views are organized, or how I format my commits, can be viewed on
-            <a class="text-blue-500" href="https://github.com/Hazzard13/Resume">github</a>, as I've fully open-sourced the site.
+            <a class="text-blue-700 hover:text-blue-800" href="https://github.com/Hazzard13/Resume">github</a>, as I've fully open-sourced the site.
         </p>
     </div>
 </x-layout>
