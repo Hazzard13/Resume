@@ -24,7 +24,7 @@
             </div>
         </a>
         <div class="float-right text-slate-100 sm:w-3/4">
-            <a class="block float-right pr-6 text-center">
+            <a href="{{ route('timeline') }}" class="block float-right pr-6 text-center">
                 Timeline
             </a>
             <a href="{{ route('technologies') }}" class="block float-right pr-6 text-center">

@@ -54,6 +54,9 @@
                 <span class="font-semibold">Bootstrap:</span> Bootstrap has been the main CSS framework I've used over the years. It has quite a lot of useful utilities, although I think modern frameworks have surpassed it.
             </p>
             <p class="mb-3">
+                <span class="font-semibold">Font Awesome:</span> FontAwesome is great to work with. It's the first place I go looking for icons. In fact, the icons this site uses are actually from FontAwesome, although I've opted to embed the SVGs directly, since I need so few icons, and prioritize keeping this site performant.
+            </p>
+            <p class="mb-3">
                 <span class="font-semibold">LESS:</span> I've used LESS on several projects over five years. It's great.
             </p>
             <p class="mb-3">
@@ -199,6 +202,12 @@
             </p>
             <p class="mb-3">
                 <span class="font-semibold">Photoshop:</span> I'm no expert, but I know enough to get by. I've had a license from work for viewing designs for more than 5 years, and have lightly used it on multiple personal projects over the years.
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">ProPresenter:</span> I've used ProPresenter to put together Sunday services at Grace Church for several years now. I'd consider myself a very advanced user, having made heavy use of cues, the MIDI plugin, and Stage Displays. We even use a greenscreen Stage Display to pass effects to our ATEM Mini for livestreaming purposes.
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">QLC+:</span> I helped switch our church's lighting over to QLC+, from a traditional light board. With it, we've added effects, and combined it with MIDI cues sent by ProPresenter to automatically adjust our lighting during the service. No extra volunteers needed, and much better lighting. Marvelous program.
             </p>
         </div>
     </div>
