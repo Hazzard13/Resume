@@ -8,7 +8,7 @@
                 This page is a simple timeline, showing my education, work, and notable side projects.
             </p>
             <p class="mb-3">
-                Also note, this is far from a complete list of everything I've done. Check Major Projects for more detail on things I've actually done at work, and a few besides.
+                Also note, this is far from a complete list of everything I've done. Check <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects') }}">Major Projects</a> for more detail on things I've actually done at work, and a few besides.
             </p>
         </div>
     </div>
@@ -62,7 +62,7 @@
                 </p>
             </h1>
             <p>
-                When the pandemic came along, I was an instrumental part of helping my church transition to being online. I worked out how to display our slides and media, overlay words, mix the band for online, handled our camera angles, streaming settings, etc. It was a hectic time, but we've been online for 2 years now, and continue to work on improving it. Since then, I've also helped train volunteers so it <span class="italic">isn't</span> such a one-man show. Feel free to check out the result on <a class="text-blue-700 hover:text-blue-800" href="https://www.youtube.com/channel/UC_JmEvI1ZSKuaMYiz3p0KEw">YouTube</a>!
+                When the pandemic came along, I was an instrumental part of helping <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.grace_church') }}">Grace Church</a> transition to being online. I worked out how to display our slides and media, overlay words, mix the band for online, handled our camera angles, streaming settings, etc. It was a hectic time, but we've been online for 2 years now, and continue to work on improving it. Since then, I've also helped train volunteers so it <span class="italic">isn't</span> such a one-man show. Feel free to check out the result on <a class="text-blue-700 hover:text-blue-800" href="https://www.youtube.com/channel/UC_JmEvI1ZSKuaMYiz3p0KEw">YouTube</a>!
             </p>
         </div>
 
@@ -127,7 +127,7 @@
                 </p>
             </h1>
             <p>
-                Around 2018 I volunteered to take over the soundboard at my church. After a week or two of YouTube crash courses, and some in-person training with a professional, I took over the mixing pretty much entirely. Since then, I've trained others, added instruments, created a stereo mix for online, and learned lots of useful tricks, like de-essing, or how to mic a drum set. I've also crept into helping in other areas, like switching our lighting over to QLC+ controlled via MIDI cues sent by ProPresenter.
+                Around 2018 I volunteered to take over the soundboard at <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.grace_church') }}">Grace Church</a>. After a week or two of YouTube crash courses, and some in-person training with a professional, I took over the mixing pretty much entirely. Since then, I've trained others, added instruments, created a stereo mix for online, and learned lots of useful tricks, like de-essing, or how to mic a drum set. I've also crept into helping in other areas, like switching our lighting over to QLC+ controlled via MIDI cues sent by ProPresenter.
             </p>
         </div>
 
@@ -159,7 +159,7 @@
                 </p>
             </h1>
             <p>
-                In Velsoft, I started working my current job, as a Full Stack Developer. I was hired primarily to work on <a class="text-blue-700 hover:text-blue-800" href="https://znanja.com/">znanja</a>, which was challenging as a site with thousands of users, enterprise code that had been built on for more than a decade, and complex backend requirements for tasks like editing eLearning, and even converting docx and pptx files to elearning. I've done many complex tasks for znanja, such as making Virtual Classes, a webinar system, or integrating <a class="text-blue-700 hover:text-blue-800" href="https://gridlessbuilder.com/">Gridless Builder</a> as a new editor. Besides that, Velsoft also likes to take on contract work, so I've gotten to work on loads of smaller sites and projects, which we'd usually use to try out new technologies as well.
+                In 2016, I started working my current job at Velsoft, as a Full Stack Developer. I was hired primarily to work on <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.znanja') }}">znanja</a>, which was challenging as a site with thousands of users, enterprise code that had been built on for more than a decade, and complex backend requirements for tasks like editing eLearning, and even converting docx and pptx files to elearning. I've done many complex tasks for znanja, such as making Virtual Classes, a webinar system, or integrating <a class="text-blue-700 hover:text-blue-800" href="https://gridlessbuilder.com/">Gridless Builder</a> as a new editor. Besides that, Velsoft also likes to take on contract work, so I've gotten to work on loads of smaller sites and projects, which we'd usually use to try out new technologies as well.
             </p>
         </div>
 
