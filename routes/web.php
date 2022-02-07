@@ -24,3 +24,16 @@ Route::get('/technologies', function () {
 Route::get('/timeline', function () {
     return view('timeline');
 })->name('timeline');
+
+Route::get('/major-projects', function() {
+    return view('major_projects.index');
+})->name('major_projects');
+Route::get('/major-projects/food-skills-library', function() {
+    return view('major_projects.food_skills_library');
+})->name('major_projects.food_skills_library');
+Route::get('/major-projects/grace-church', function() {
+    return view('major_projects.grace_church');
+})->name('major_projects.grace_church');
+Route::get('/major-projects/znanja', function() {
+    return view('major_projects.znanja');
+})->name('major_projects.znanja');
