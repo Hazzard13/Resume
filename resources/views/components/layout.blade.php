@@ -9,7 +9,8 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap"></noscript>
 
         <link href="/css/app.css" rel="stylesheet" />
 
@@ -24,13 +25,13 @@
             </div>
         </a>
         <div class="float-right text-slate-100 sm:w-3/4">
-            <a href="{{ route('timeline') }}" class="block float-right pr-6 text-center">
+            <a href="{{ route('timeline') }}" class="block float-right h-12 pr-6 text-center lg:h-auto">
                 Timeline
             </a>
-            <a href="{{ route('technologies') }}" class="block float-right pr-6 text-center">
+            <a href="{{ route('technologies') }}" class="block float-right h-12 pr-6 text-center lg:h-auto">
                 Technologies
             </a>
-            <a href="{{ route('major_projects') }}" class="block float-right pr-6 text-center">
+            <a href="{{ route('major_projects') }}" class="block float-right h-12 pr-6 text-center lg:h-auto">
                 Major Projects
             </a>
         </div>
