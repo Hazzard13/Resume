@@ -563,6 +563,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-8 {
   width: 2rem;
 }
+.w-\[calc\(100\%-4rem\)\] {
+  width: calc(100% - 4rem);
+}
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -629,6 +632,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -646,6 +653,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pr-6 {
   padding-right: 1.5rem;
+}
+.pb-0 {
+  padding-bottom: 0px;
+}
+.pt-5 {
+  padding-top: 1.25rem;
 }
 .text-center {
   text-align: center;
@@ -779,6 +792,10 @@ body {
 
   .sm\:pt-6 {
     padding-top: 1.5rem;
+  }
+
+  .sm\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 }
 

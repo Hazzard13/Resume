@@ -18,13 +18,13 @@
     </head>
 </html>
 <body class="relative h-auto min-h-screen pb-10 bg-slate-300">
-    <div class="relative p-5 bg-gradient-to-br from-orange-500 to-amber-400">
-        <a class="block float-left" aria-label="Homepage" href="{{ route('homepage') }}">
+    <div class="relative px-5 pt-5 bg-gradient-to-br from-orange-500 to-amber-400">
+        <a class="block float-left mb-5" aria-label="Homepage" href="{{ route('homepage') }}">
             <div class="h-16 w-16 sm:h-20 sm:w-20 bg-contain bg-[center_left_0.2rem] border-4 border-slate-200 rounded-full"
                 style="background-image: url('https://lh3.googleusercontent.com/a-/AOh14GgH2kEOGlVfVxO1IW31FPCIjQZI0NEQI2s82PMubw')">
             </div>
         </a>
-        <div class="float-right text-slate-100 sm:w-3/4">
+        <div class="float-right text-slate-100 w-[calc(100%-4rem)] sm:w-3/4">
             <a href="{{ route('timeline') }}" class="block float-right h-12 pr-6 text-center lg:h-auto">
                 Timeline
             </a>
