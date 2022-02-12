@@ -3,9 +3,13 @@
 namespace App\View\Components;
 
 use Illuminate\View\Component;
+use Illuminate\Support\Facades\Cookie;
 
 class layout extends Component
 {
+    public $theme = 'light';
+    public $selectedTheme = 'system';
+
     /**
      * Create a new component instance.
      *
@@ -13,7 +17,13 @@ class layout extends Component
      */
     public function __construct()
     {
-        //
+        $this->selectedTheme = Cookie::get('selectedTheme', 'system');
+
+        if($this->selectedTheme != 'system') {
+            $this->theme = $this->selectedTheme;
+        } else {
+            $this->theme = Cookie::get('theme', 'light');
+        }
     }
 
     /**
