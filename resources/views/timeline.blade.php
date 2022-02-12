@@ -8,7 +8,7 @@
                 This page is a simple timeline, showing my education, work, and notable side projects.
             </p>
             <p class="mb-3">
-                Also note, this is far from a complete list of everything I've done. Check <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects') }}">Major Projects</a> for more detail on things I've actually done at work, and a few besides.
+                Also note, this is far from a complete list of everything I've done. Check <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects') }}">Major Projects</a> for more detail on things I've actually done at work, and a few notable volunteer and side projects.
             </p>
         </div>
     </div>
@@ -46,7 +46,7 @@
                 </p>
             </h1>
             <p>
-                In 2022 I decided to learn blender. So, I set aside around 15 hours one weekend, and crunched through learning as much as I could. I was able to create an animation I was incredibly proud of, with materials, geometry, and even a looping animation, featuring material changes and geometry nodes.
+                In 2022 I decided to learn blender. So, I set aside around 15 hours one weekend, and crunched through learning as much as I could. I was able to create <a class="text-blue-700 hover:text-blue-800" href="https://www.instagram.com/reel/CZGKfZ_tbwh/">an animation</a> I was incredibly proud of, with materials, geometry, and even a looping animation, featuring material changes and geometry nodes.
             </p>
         </div>
 
@@ -79,7 +79,7 @@
                 </p>
             </h1>
             <p>
-                This is an interesting one! In 2020 I volunteered to help out with an event for the maritime church district. We put together a fun online gaming event for youth all over the maritimes (Nova Scotia, New Brunswick, and PEI). In 2021, I took over the event, and scaled it up. I chose a team of youth pastors I know across the district, and we organized the event again, this time adding in a livestream component. For one hectic weekend, we were live for 11 hours, organizing youth into different games and hosting it all online. You can even still watch the livestreams: <a class="text-blue-700 hover:text-blue-800" href="https://www.youtube.com/watch?v=T2cMW19AynA">Day One</a>, <a class="text-blue-700 hover:text-blue-800" href="https://www.youtube.com/watch?v=iSVv5S_9UnE">Day Two</a>.
+                This is an interesting one! In 2020 I volunteered to help out with an event for the maritime church district. We put together a fun online gaming event for youth all over the Maritimes (Nova Scotia, New Brunswick, and PEI). In 2021, I took over the event, and scaled it up. I chose a team of youth pastors I know across the district, and we organized the event again, this time adding in a livestream component. For one hectic weekend, we were live for 11 hours, organizing youth into different games and hosting it all online. You can even still watch the livestreams: <a class="text-blue-700 hover:text-blue-800" href="https://www.youtube.com/watch?v=T2cMW19AynA">Day One</a>, <a class="text-blue-700 hover:text-blue-800" href="https://www.youtube.com/watch?v=iSVv5S_9UnE">Day Two</a>.
             </p>
         </div>
 
@@ -143,7 +143,7 @@
                 </p>
             </h1>
             <p>
-                I've always been interested in game development, and in 2017, GMTK announced they'd be doing their first ever game jam. Over the next two weeks, I threw myself at Unity, did some tutorials, and then buckled in to try to make a whole game from scratch in just a few days. Of course, as I was still learning the engine, I didn't make anything <span class="italic">incredible</span>, but I did succeed in finishing a basic android game within those few days. You can still find the game on <a class="text-blue-700 hover:text-blue-800" href="https://nathanhazz.itch.io/launch">itch.io</a>, although I doubt it's still playable.
+                I've always been interested in game development, and in 2017, GMTK announced they'd be doing their first ever game jam. Over the next two weeks, I threw myself at Unity, did some tutorials, and then buckled in to try to make a whole game from scratch in just a few days. Of course, as I was still learning the engine, I didn't make anything <span class="italic">incredible</span>, but I did succeed in finishing a basic android game within those few days. You can even still find the game on <a class="text-blue-700 hover:text-blue-800" href="https://nathanhazz.itch.io/launch">itch.io</a>.
             </p>
         </div>
 
@@ -159,11 +159,11 @@
                 </p>
             </h1>
             <p>
-                In 2016, I started working my current job at Velsoft, as a Full Stack Developer. I was hired primarily to work on <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.znanja') }}">znanja</a>, which was challenging as a site with thousands of users, enterprise code that had been built on for more than a decade, and complex backend requirements for tasks like editing eLearning, and even converting docx and pptx files to elearning. I've done many complex tasks for znanja, such as making Virtual Classes, a webinar system, or integrating <a class="text-blue-700 hover:text-blue-800" href="https://gridlessbuilder.com/">Gridless Builder</a> as a new editor. Besides that, Velsoft also likes to take on contract work, so I've gotten to work on loads of smaller sites and projects, which we'd usually use to try out new technologies as well.
+                In 2016, I started working my current job at Velsoft, as a Full Stack Developer. I was hired primarily to work on <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.znanja') }}">znanja</a>, which was challenging as a site with thousands of users, enterprise code that had been built on for more than a decade, and complex backend requirements for tasks like editing eLearning, and even converting docx and pptx files to our own proprietary elearning format. I've done many complex tasks for znanja, such as making Virtual Classes, a webinar system, or integrating <a class="text-blue-700 hover:text-blue-800" href="https://gridlessbuilder.com/">Gridless Builder</a> as a new editor. Besides that, Velsoft also likes to take on contract work, so I've gotten to work on loads of smaller sites and projects, which we'd usually use to try out new technologies as well.
             </p>
         </div>
 
-        <div class="relative p-5 rounded-lg mb-5 shadow-xl bg-slate-200 w-[calc(100%-1.5rem)] sm:w-[calc(100%-2.5rem)] float-right md:ml-0 md:float-left md:w-[calc(50%-1.5rem)] md:mt-5">
+        <div class="relative p-5 rounded-lg mb-5 shadow-xl bg-slate-200 w-[calc(100%-1.5rem)] sm:w-[calc(100%-2.5rem)] float-right md:ml-0 md:mb-10 md:float-left md:w-[calc(50%-1.5rem)] md:mt-5">
             <div class="absolute h-6 w-6 sm:h-8 sm:w-8 bottom-1/2 left-[-1.5rem] sm:left-[-2.25rem] md:left-auto md:right-[-2.5rem] bg-slate-300 border-2 border-slate-500 rounded-full text-center">
                 <div class="absolute w-4 mt-3 border-b-2 z-[-1] border-slate-500 -right-2 md:-left-2"></div>
                 <svg aria-hidden="true" focusable="false" class="w-4 h-4 mx-auto mt-0.5 sm:mt-1 sm:w-5 sm:h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M420.5 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.94-83a10 10 0 1 0 -17.27-10h0l-48.54 84.07a301.3 301.3 0 0 0 -246.6 0L116.2 64.45a10 10 0 1 0 -17.27 10h0l47.94 83C64.53 202.2 8.24 285.5 0 384H576c-8.24-98.45-64.54-181.8-146.9-226.6"></path></svg>
@@ -175,7 +175,7 @@
                 </p>
             </h1>
             <p>
-                For my senior project, I decided to go all in and publish an Android app. Over the next few months, I built and published a fairly straightforward To-Do app, that filled a niche that I was looking for personally. As my first published project, it was quite the new experience, and I was quite proud to see a few people even use the app seriously, as it was intended. It was a bit similar in philosophy to Todoist, actually. The app no longer exists on the Play Store, but the code was actually open sourced <a class="text-blue-700 hover:text-blue-800" href="https://github.com/Hazzard13/Simple-To-Do">on github</a>.
+                For my senior project, I decided to go all in and publish an Android app. Over the next few months, I built and published a fairly straightforward To-Do app, that filled a niche I was personally looking for. As my first published project, it was quite the new experience, and I was very proud to see a few people even use the app seriously, as it was intended. It was a bit similar in philosophy to Todoist, actually. The app no longer exists on the Play Store, but I open sourced the code <a class="text-blue-700 hover:text-blue-800" href="https://github.com/Hazzard13/Simple-To-Do">on github</a>.
             </p>
         </div>
 

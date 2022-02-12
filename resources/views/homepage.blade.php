@@ -5,16 +5,13 @@
                 Welcome!
             </h1>
             <p class="mb-3">
-                This site is the personal resume of Nathan Hazzard. Everything on this site is made from scratch, by me. No outside help was used, whether with design, writing, coding, etc.
+                Hi! I'm Nathan Hazzard, and <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.this_site') }}">this site</a> is my personal resume. I'm a full stack developer, who's spent the past 5+ years working on a <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects') }}">wide variety of projects</a>, both professional and volunteer, and being exposed to a wide variety of <a class="text-blue-700 hover:text-blue-800" href="{{ route('technologies') }}">different technologies</a> along the way.
             </p>
             <p class="mb-3">
-                In addition, this site is made to be as transparent as possible. I <span class="italic">want</span> you to see my work, and poke around the site itself.
-                To that end, this site is built using tailwind.css and alpine.js, and nothing is minified. That means all of this site's code is viewable, directly in the Inspect Element HTML.
-                No need to search for sources, or trying to figure out where an event or class is coming from.
+                I'd consider my greatest strengths to be my abilities to work with people, both clients and coworkers, as exemplified in projects like my <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.grace_church') }}">volunteer work</a> or community things like my time <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.idle_wizard_wiki') }}">leading a wiki</a>. I'm even considering a future in some kind of management role, leading a team of developers through large projects. I have quite a lot of experience handling <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects') }}">large projects</a>, that may take months or longer to bring to completion, and I've made my mistakes and learned a lot of valuable lessons along the way.
             </p>
             <p class="mb-3">
-                Also, anything you <span class="italic">can't</span> see directly here, such as how the views are organized, or how I format my commits, can be viewed on
-                <a class="text-blue-700 hover:text-blue-800" href="https://github.com/Hazzard13/Resume">github</a>, as I've fully open-sourced the site.
+                My other greatest strength would be my ability to learn and adapt quickly. Take a look at my <a class="text-blue-700 hover:text-blue-800" href="{{ route('technologies') }}">technologies page</a> after only 5 years in this industry, and I think it speaks for itself in terms of my ability to pickup a new language or tool as I need it. Personally, I consider the option to play with new technologies incredibly important, and following what the industry is doing and evolving as a developer is very important to me. I wouldn't be where I am today if I wasn't passionate about taking on new challenges.
             </p>
         </div>
     </div>

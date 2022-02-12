@@ -506,6 +506,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .contents {
   display: contents;
 }
+.hidden {
+  display: none;
+}
 .h-\[calc\(100\%-1\.25rem\)\] {
   height: calc(100% - 1.25rem);
 }
@@ -815,6 +818,10 @@ body {
 
   .md\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .md\:w-1\/2 {

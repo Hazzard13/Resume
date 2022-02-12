@@ -23,6 +23,18 @@
 
         <div class="p-5 mt-5 shadow-xl bg-slate-200 sm:rounded-lg">
             <h1 class="pb-2 text-xl font-semibold">
+                Idle Wizard Wiki
+            </h1>
+            <p class="mb-3">
+                In an odd turn of events, I found myself drawn into being the admin of the wiki for a game I liked. It started off as just helping with some Lua coding issues, and ended with me writing regular progress reports, recruiting volunteers, and helping to manage a community of around 500 people.
+            </p>
+            <p class="mb-3">
+                <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.idle_wizard_wiki') }}">Read more about my work on the Idle Wizard Wiki</a>.
+            </p>
+        </div>
+
+        <div class="p-5 mt-5 shadow-xl bg-slate-200 sm:rounded-lg">
+            <h1 class="pb-2 text-xl font-semibold">
                 Grace Church
             </h1>
             <p class="mb-3">
@@ -30,6 +42,19 @@
             </p>
             <p class="mb-3">
                 <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.grace_church') }}">Read more about my work with Grace Church</a>.
+            </p>
+        </div>
+
+
+        <div class="p-5 mt-5 shadow-xl bg-slate-200 sm:rounded-lg">
+            <h1 class="pb-2 text-xl font-semibold">
+                This Site
+            </h1>
+            <p class="mb-3">
+                Hazzard.dev is a personal project I put together in around a week, to serve as my resume, but also to show off as an example of my work! Although it doesn't necessarily do anything <span class="italic">incredible</span>, I've done my best to maintain great code quality and performance, even while it's a side project.
+            </p>
+            <p class="mb-3">
+                <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.this_site') }}">Read more about my work on Hazzard.dev</a>.
             </p>
         </div>
 

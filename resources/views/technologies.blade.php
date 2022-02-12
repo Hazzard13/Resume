@@ -11,10 +11,10 @@
                 Technologies
             </h1>
             <p class="mb-3">
-                In the tech industry, every job comes down to technologies. What are you familiar with, and what have you used? Are you familiar with X? This section should answer that.
+                In the tech industry, every job comes down to technologies. What are you familiar with, and what have you used? Are you familiar with X? This section should answer that, and in far more detail than would be reasonable for a regular resume!
             </p>
             <p class="mb-3">
-                Frankly, I've worked with a slightly insane quantity of different technologies over the years. At my current job, we like to take on a lot of contract projects, and we'll often try new techologies out on those projects. Thus, this page may look slightly overwhelming. If you take away nothing else, then just note that I can learn anything I need to. I've used almost everything here in production, on a budget, and picked it up while I went along. If something you're looking for isn't here, then I have great confidence I can pick it up just fine.
+                Frankly, I've worked with a slightly insane quantity of different technologies over the years. At my current job, we like to take on a lot of contract projects, and we'll often try new techologies out on those projects. Thus, this page may look slightly overwhelming. If you take away nothing else, then just note that I can learn anything I need to. I've used almost everything here in production, on a budget, and picked it up while I went along. If something you're looking for isn't here, then I have great confidence I can pick it up without issue.
             </p>
             <p class="mb-3">
                 I'll be breaking technologies into categories, and sorting them alphabetically. If it isn't here, I haven't used it (or just forgot). By each, I'll honestly assess my familiarity and experience with each language. Where possible, I'll also be trying to link out to any relevant projects where I got experience with that language.
@@ -39,10 +39,10 @@
                 <span class="font-semibold">AngularJS:</span> I used AngularJS for the front end on <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.food_skills_library') }}">Food Skills Library</a>, a major multi-year project. Unfortunately, I haven't had the chance to use it's modern cousin: Angular, although I'd like the chance. AngularJS was a powerful framework, that took some getting used to, but had tons of potential once it clicked. I imagine the concepts would carry very well.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">ES6:</span> Unfortunately Internet Explorer compatibility still haunts this one, but thanks to compiled languages like Typescript, polyfills, and more modern projects, I've been able to use ES6 more and more over the past couple years. Arrow Functions, Promises, they're all fantastic additions to the language.
+                <span class="font-semibold">ES6:</span> Unfortunately Internet Explorer compatibility still haunts this one, but thanks to compiled languages like Typescript, polyfills, and more modern projects, I've been able to use ES6 more and more over the past few years. Arrow Functions, Promises, they're all fantastic additions to the language.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">React:</span> React is a language that <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.znanja') }}">znanja</a>, my company's main product, has been shifting our front-end to for about 2 years. React is an incredibly powerful front-end language, and integrations with tools like JSX and Typescript really level it up to be a far superior experience to other frameworks I've used. Big fan of this one.
+                <span class="font-semibold">React:</span> React is a language that <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.znanja') }}">znanja</a>, my company's main product, has been shifting our front-end to for about 2 years. React is an incredibly powerful front-end language, and integrations with tools like JSX and Typescript really level it up to be a far superior experience to other frameworks I've used.
             </p>
         </div>
 
@@ -51,10 +51,10 @@
                 CSS
             </h1>
             <p class="mb-3">
-                <span class="font-semibold">Bootstrap:</span> Bootstrap has been the main CSS framework I've used over the years. It has quite a lot of useful utilities, although I think modern frameworks have surpassed it.
+                <span class="font-semibold">Bootstrap:</span> Bootstrap has been the main CSS framework I've used over the years. It has quite a lot of useful utilities, although I think modern frameworks have surpassed it, and I'm moving away from it in new projects.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">Font Awesome:</span> FontAwesome is great to work with. It's the first place I go looking for icons. In fact, the icons this site uses are actually from FontAwesome, although I've opted to embed the SVGs directly, since I need so few icons, and prioritize keeping this site performant.
+                <span class="font-semibold">Font Awesome:</span> FontAwesome is great to work with. It's the first place I go looking for icons. In fact, the icons this site uses are actually from FontAwesome, although I've opted to embed the SVGs directly, since I need so few icons, and prioritize keeping <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.this_site') }}">this site</a> performant.
             </p>
             <p class="mb-3">
                 <span class="font-semibold">LESS:</span> I've used LESS on several projects over five years. It's great.
@@ -63,7 +63,7 @@
                 <span class="font-semibold">SCSS:</span> Much like LESS, I've used SCSS on several projects over years. Personally, I prefer it <span class="italic">slightly</span> over LESS.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">Tailwind:</span> I've only had the privilege of using tailwind for around a month now, but I liked it so much I chose to use it for this site.
+                <span class="font-semibold">Tailwind:</span> I've only had the privilege of using tailwind for around a month now, but I liked it so much I chose to use it for <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.this_site') }}">this site</a>.
             </p>
         </div>
 
@@ -81,7 +81,7 @@
                 <span class="font-semibold">ImmerJS:</span> This one doesn't seem to do much at first, but combined with React Hooks and Typescript this was a powerful way of avoiding side effects and writing reliable, consistent code, while barely even leaving yourself the <span class="italic">option</span> to make mistakes.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">Javascript:</span> Honestly, I strongly believe vanilla javascript gets a bad rap. Queries like document.getElementById are long and verbose, but it's performant, portable, and an underrated choice for small projects.
+                <span class="font-semibold">Javascript:</span> Honestly, I strongly believe vanilla javascript has an unfair reputation. Queries like document.getElementById may be long and overly verbose, but it's performant, portable, and an underrated choice for small projects.
             </p>
             <p class="mb-3">
                 <span class="font-semibold">JQuery:</span> JQuery is the old king of javascript. I've used it for years, like we all have. It does the job, but I'd almost always prefer something else now.
@@ -102,19 +102,22 @@
                 Backend
             </h1>
             <p class="mb-3">
-                <span class="font-semibold">AWS:</span> I've used AWS as a developer for around 5 years, and in the last six months I've been adding to that by taking a dedicated prep course for their Developer Associate certification.
+                <span class="font-semibold">Apache:</span> Apache has been how I host my local developer environment for years. I've set it up from scratch locally several times, and was the obvious choice to serve <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.this_site') }}">this site</a> in production.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">Blade:</span> Blade is the templating engine for Laravel, which is actually rendering the page you're on now. I've used this one extensively, and it wasn't an accident I chose it for this site.
+                <span class="font-semibold">AWS:</span> I've used AWS as a developer for around 5 years, and in the last six months I've been adding to that by taking a dedicated prep course for their Developer Associate certification. I also hosted <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.this_site') }}">this site</a> on AWS!
+            </p>
+            <p class="mb-3">
+                <span class="font-semibold">Blade:</span> Blade is the templating engine for Laravel, which is actually rendering the page you're on now. I've used this one extensively, and it wasn't an accident I chose it for <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.this_site') }}">this site</a>.
             </p>
             <p class="mb-3">
                 <span class="font-semibold">Chameleon:</span> Chameleon is a much older templating language, that we use with Pyramid. It's clunky by modern standards, but I've used it to do just about anything you can think of.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">Elasticsearch:</span> I've only had the privilege to work with Elasticsearch on one project, <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.food_skills_library') }}">Food Skills Library</a>. In that one project, however, I've used it to integrate full text search on hundreds of PDFs, and more than a thousand records of all different kinds. Originally I addressed the elasticsearch API directly, but within the last year I rebuilt the functionality with Laravel scout and Queueing, making it substantially better in the process.
+                <span class="font-semibold">Elasticsearch:</span> I've only had the privilege to work with Elasticsearch on one project, <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.food_skills_library') }}">Food Skills Library</a>. In that one project, however, I've used it to integrate full text search on hundreds of PDFs, and more than a thousand records of all different kinds. Originally I addressed the elasticsearch API directly, but within the last year I rebuilt the functionality with Laravel Scout and Queueing, making it substantially better in the process.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">Laravel:</span> Laravel is a fantastic framework, and I've used it on almost a dozen projects over 5 years. I've been with Laravel since v3, and have used nearly every version up to the current 8. This site, of course, is built on Laravel 8. It's performant, it's extensible, it's secure, it has official tools for just about anything you can imagine, and notably has one of the best ORMs I've worked with.
+                <span class="font-semibold">Laravel:</span> Laravel is a fantastic framework, and I've used it on almost a dozen projects over 5 years. I've been with Laravel since v3, and have used nearly every version up to the current 9. <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.this_site') }}">This site</a>, of course, is built on Laravel. It's performant, it's extensible, it's secure, it has official tools for just about anything you can imagine, and notably has one of the best ORMs I've ever worked with.
             </p>
             <p class="mb-3">
                 <span class="font-semibold">Mongo:</span> Mongo has been a part of my main project, <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.znanja') }}">znanja</a>, since forever. We don't regularly work on that code now, and prefer postgres for most applications, but I've definitely got experience with it.
@@ -168,7 +171,7 @@
                 <span class="font-semibold">Java:</span> I haven't wrote Java in years, but this was my main language in college. I also used it fairly extensively for Android, which is a platform I might like to return to one day.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">Lua:</span> Lua is a bit of an oddball. I used it a fair bit on a sideproject, and like the language.
+                <span class="font-semibold">Lua:</span> Lua is a bit of an oddball, in details like how it handles arrays. I used it a fair bit on the <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.idle_wizard_wiki') }}">Idle Wizard Wiki</a>, and like the language. Especially how flexible it is.
             </p>
             <p class="mb-3">
                 <span class="font-semibold">PHP:</span> PHP is another language with a bad reputation, but in reality it's just fine. Granted, I primarily use it with Laravel and it's many helpers, but it's also performant and capable on it's own.
@@ -183,7 +186,7 @@
                 Other Skills
             </h1>
             <p class="mb-3">
-                I dabble with a lot more than just programming. This section features some of my more hobbyist skills.
+                I dabble with a lot more than just programming. This section features some of my hobbyist skills.
             </p>
             <p class="mb-3">
                 <span class="font-semibold">ATEM:</span> Since the pandemic, <a class="text-blue-700 hover:text-blue-800" href="{{ route('major_projects.grace_church') }}">our church</a> has gone online. To help with that, we picked up an ATEM, and mastering it has mostly been my task. Setting it up, creating macros, and getting the best output we can has been a fun challenge!
