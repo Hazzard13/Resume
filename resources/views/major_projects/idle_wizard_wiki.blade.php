@@ -5,7 +5,7 @@
     <div class="max-w-6xl pt-2 mx-auto lg:px-8 sm:px-6 sm:pb-6">
         <div class="p-5 shadow-xl bg-slate-200 sm:rounded-lg">
             <h1 class="pb-2 text-2xl font-semibold">
-                Idle Wizard wiki
+                Idle Wizard Wiki
             </h1>
             <p class="mb-3">
                 This was a very odd chapter of my life, and not really something I was looking for. In early 2019, I made a new friend in the chat of a game I was playing. And one day, he was struggling with an issue: an update had just come out, and he was trying to update the wiki, but had broken something in a script. Knowing a few things, I decided to help out, even though I hadn't written Lua in years. I made an account, looked at the files, and found the error. This... started a journey, where I helped out more and more with the wiki, until I was accidentally thrust into a position of leadership.

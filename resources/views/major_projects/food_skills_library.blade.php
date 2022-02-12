@@ -11,6 +11,9 @@
                 I was first given this project five years ago. The task was to take all of these different skills and manuals that the FPSC (Food Processing Skills Canada) generated every year, and convert it into a single database. This required working out a database structure to handle over 300 occupations, with a combined total of more than a thousand individual skills across them.
             </p>
             <p class="mb-3">
+                In addition, I also did the majority of the support on this site. I corresponded directly with FPSC for much of the project, and implemented bugfixes, gave support, and also handled both the estimates and work for all future work on the project. Initially, it was thought that this would be a one-off project, but it was considered a major success, and I've done major updates on the site multiple times over 4 years.
+            </p>
+            <p class="mb-3">
                 Food Skills Library was built with Laravel as the backend, and angularJS for the frontend. We used PostgreSQL for the database itself, and later introduced Elasticsearch.
             </p>
         </div>
