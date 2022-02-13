@@ -5,7 +5,7 @@ namespace App\View\Components;
 use Illuminate\View\Component;
 use Illuminate\Support\Facades\Cookie;
 
-class layout extends Component
+class Layout extends Component
 {
     public $theme = 'light';
     public $selectedTheme = 'system';
