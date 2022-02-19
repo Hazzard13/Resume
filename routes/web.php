@@ -47,3 +47,6 @@ Route::get('/major-projects/znanja', function() {
 Route::get('/cover/id', function () {
     return view('cover.id');
 })->name('cover.id');
+Route::get('/cover/360insights', function () {
+    return view('cover.360insights');
+})->name('cover.360insights');
