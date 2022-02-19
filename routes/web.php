@@ -43,3 +43,7 @@ Route::get('/major-projects/this-site', function() {
 Route::get('/major-projects/znanja', function() {
     return view('major_projects.znanja');
 })->name('major_projects.znanja');
+
+Route::get('/cover/id', function () {
+    return view('cover.id');
+})->name('cover.id');

@@ -77,7 +77,7 @@
                             <path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/>
                         </svg>
                     </span>
-                    <div class="absolute text-black rounded-lg shadow-xl right-5 top-16 dark:text-slate-100 bg-slate-200 dark:bg-slate-600" x-show="showThemes" x-cloak>
+                    <div class="absolute text-black rounded-lg shadow-xl right-5 top-20 dark:text-slate-100 bg-slate-200 dark:bg-slate-600" x-show="showThemes" x-cloak>
                         <p class="py-1 pl-3 pr-10 mt-1 cursor-pointer hover:bg-slate-300 hover:dark:bg-slate-500"
                             x-bind:class="selectedTheme == 'light' ? 'text-blue-600 dark:text-blue-400' : ''" x-on:click="setTheme('light');">
                             <svg aria-hidden="true" focusable="false" class="inline-block w-4 h-4 mt-[-0.1rem]" role="img" viewBox="0 0 512 512">
