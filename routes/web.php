@@ -34,6 +34,9 @@ Route::get('/major-projects/food-skills-library', function() {
 Route::get('/major-projects/grace-church', function() {
     return view('major_projects.grace_church');
 })->name('major_projects.grace_church');
+Route::get('/major-projects/media-boss', function() {
+    return view('major_projects.media_boss');
+})->name('major_projects.media_boss');
 Route::get('/major-projects/idle-wizard-wiki', function() {
     return view('major_projects.idle_wizard_wiki');
 })->name('major_projects.idle_wizard_wiki');

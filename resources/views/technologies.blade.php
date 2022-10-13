@@ -147,6 +147,9 @@
                 <span class="font-semibold">Jasmine:</span> Jasmine has been part of our main front-end tests for 2 years now. I love it's clean way of describing tests as actions, and it's a great fit for the "real user actions" school of testing.
             </p>
             <p class="mb-3">
+                <span class="font-semibold">Jenkins:</span> I picked up Jenkins on <a class="text-blue-700 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-500" href="{{ route('major_projects.media_boss') }}"> Media Boss</a>, and have been using it for about a year. I've found it rather intuitive to use, and incredibly powerful as part of a CI/CD Pipeline.
+            </p>
+            <p class="mb-3">
                 <span class="font-semibold">Jest:</span> I don't have immense experience with Jest, we try to avoid it in favour of Testing Library's more user-like selectors and actions, but every now and again you just have to do it the old school way. I'd say I'm familiar with Jest, but no expert.
             </p>
             <p class="mb-3">
@@ -177,7 +180,7 @@
                 <span class="font-semibold">PHP:</span> PHP is another language with a bad reputation, but in reality it's just fine. Granted, I primarily use it with Laravel and it's many helpers, but it's also performant and capable on it's own.
             </p>
             <p class="mb-3">
-                <span class="font-semibold">Python:</span> Like most developers, I'm quite fond of Python. It's highly readable, and straightforward to write, even if I do keep adding semicolons. I've been using this one professionally for more than five years now.
+                <span class="font-semibold">Python:</span> Like most developers, I'm quite fond of Python. It's highly readable, and straightforward to write, even if I do keep adding semicolons. I've been using this one professionally for my entire career.
             </p>
         </div>
 

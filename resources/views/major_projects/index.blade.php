@@ -11,6 +11,18 @@
 
         <div class="p-5 mt-5 shadow-xl bg-slate-200 dark:bg-slate-800 sm:rounded-lg">
             <h1 class="pb-2 text-xl font-semibold">
+                Media Boss
+            </h1>
+            <p class="mb-3">
+                Media Boss was the primary project I was hired for at CBC. The primary goal was to replace MPX, a vendor product from Comcast, with their own internal solution. An absolutely massive undertaking, and long-term work for a huge team!
+            </p>
+            <p class="mb-3">
+                <a class="text-blue-700 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-500" href="{{ route('major_projects.media_boss') }}">Read more about my work on Media Boss</a>.
+            </p>
+        </div>
+
+        <div class="p-5 mt-5 shadow-xl bg-slate-200 dark:bg-slate-800 sm:rounded-lg">
+            <h1 class="pb-2 text-xl font-semibold">
                 Food Skills Library
             </h1>
             <p class="mb-3">
